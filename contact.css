@@ -1,0 +1,95 @@
+ body{
+            background-image:url('bg.png');
+			background-repeat:no-repeat;
+			
+            
+        }
+
+        .container{
+            margin-top:1pc;
+            margin-left:20pc;
+            text-align: center;
+            height:40pc;
+            width: 40pc;
+            border-radius: 12px;
+            background-color: rgb(230, 230, 230);
+        }
+
+        .label{
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            background-image: linear-gradient(to bottom,rgb(207, 7, 7),rgb(240, 235, 235));
+            height:80px;
+            text-align: center;
+            box-shadow:0px 8px 5px -5px rgb(160, 155, 155);
+        }
+
+        .inner{
+            text-align: center;
+            margin-top:2pc;
+        }
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            top: 20px;
+            color:rgb(255, 255, 255);
+        }
+
+        h3 {
+            position: relative;
+            right:10pc;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:20px;
+            color:goldenrod;
+        }
+
+        input{
+            width:18pc;
+            height: 30px;
+            position: relative;
+            left:40px;
+            bottom: 50px;
+            margin-bottom: -50px;
+            border:2px solid black;
+            border-radius: 5px;
+            box-shadow:0px 8px 5px -5px rgb(160, 155, 155);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 15px;
+            border-color:rgb(172, 155, 58);
+        }
+
+
+        textarea{
+            position: relative;
+            left:2.5pc;
+            bottom:4pc;
+            width: 18pc;
+            border:2px solid black;
+            border-radius: 5px;
+            box-shadow:0px 8px 5px -5px rgb(160, 155, 155);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            border-color:rgb(172, 155, 58);
+            
+        }
+
+        button{
+            position: relative;
+            bottom:2pc;
+            width:10pc;
+            height:40px;
+            right:25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight:800;
+            font-style: bold;
+            font-size: 20px;
+            border-radius: 8px;
+            box-shadow:0px 8px 10px -5px rgb(160, 155, 155);
+            background-image: linear-gradient(to bottom,rgb(207, 7, 7),rgb(240, 235, 235));
+            color:rgb(255, 255, 255);
+            transition:0.2 all ;
+        }
+        button:active{
+            transform: scale(0.90);
+        }
